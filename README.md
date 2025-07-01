@@ -85,33 +85,10 @@ This helps in understanding global demographic patterns, identifying skewness in
 
 ---
 
-**How to Run:**
-
-1. Clone the repository or download the notebook.
-2. Ensure Python 3.11+ is installed.
-3. Install dependencies using pip:
-
-   ```
-   pip install pandas matplotlib seaborn
-   ```
-4. Run the notebook or Python script in your preferred IDE.
-5. Make sure the CSV file is present in your working directory.
-
----
-
 **Author:**
 Yuva Sri
 Data Science Student, VIT Vellore
 Year: 2025
 
 ---
-
-**License:**
-This project is licensed under the MIT License.
-
----
-
-Would you like me to save this as a `README.txt` or `README.md` file and attach it to your GitHub-ready folder?
-
-
 
