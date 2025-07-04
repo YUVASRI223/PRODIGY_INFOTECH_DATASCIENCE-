@@ -60,7 +60,7 @@ This helps in developing skills in preprocessing, visual storytelling, and extra
 
 ##  **Visualizations:**
 
-### 🧍‍♂ Survival by Gender:
+###  Survival by Gender:
 
 * Bar chart comparing male vs female survival rates
 * X-axis: Gender | Y-axis: Count of passengers
@@ -94,7 +94,7 @@ This helps in developing skills in preprocessing, visual storytelling, and extra
 
 ---
 
-## 👨‍💻 **Author:**
+##  **Author:**
 
 **Yuva Sri**
 *Data Science Student, VIT Vellore*
