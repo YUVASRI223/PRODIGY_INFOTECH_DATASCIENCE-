@@ -1,66 +1,107 @@
-📌 Objectives
-Load and inspect the Titanic dataset
 
-Clean the data (handle missing values, drop irrelevant features)
 
-Perform univariate and multivariate analysis
+# **PRODIGY\_INFOTECH\_DATASCIENCE: Task-02**
 
-Visualize key relationships
+##  **Objective:**
 
-Prepare data for ML (optional)
+The aim of this task is to perform **data cleaning** and **exploratory data analysis (EDA)** on a real-world dataset. We chose the **Titanic dataset** from [Kaggle](https://www.kaggle.com/c/titanic/data) to analyze survival patterns and understand relationships between variables such as **age, gender, class**, and **embarkation point**.
 
-📚 What You Will Learn
-How to handle missing data (e.g., median/mode imputation)
+This helps in developing skills in preprocessing, visual storytelling, and extracting actionable insights from structured data.
 
-How to clean and simplify real-world datasets
+---
 
-How to use Pandas, Seaborn, and Matplotlib for EDA
+##  **Dataset Used:**
 
-How to find patterns like survival rates by gender, class, and age
+* **Source:** Kaggle
+* **Dataset:** Titanic - Machine Learning from Disaster
+* **Format:** CSV (train.csv)
+* **Link:** [https://www.kaggle.com/c/titanic/data](https://www.kaggle.com/c/titanic/data)
+* **Note:** The file `train.csv` must be downloaded manually and placed in the working directory.
 
-Feature encoding for ML
+---
 
-📊 Exploratory Data Analysis Highlights
-✅ Univariate Analysis
-Age distribution (sns.histplot)
+##  **Technologies Used:**
 
-Class-wise passenger distribution
+* **Python 3.11+**
+* **Pandas** for data analysis
+* **NumPy** for numerical operations
+* **Seaborn** and **Matplotlib** for plotting
+* **Jupyter Notebook** or compatible Python IDE
 
-Gender-wise counts
+---
 
-✅ Bivariate Analysis
-Survival vs. Gender (sns.countplot)
+##  **Working:**
 
-Survival vs. Pclass
+###  **Data Loading:**
 
-Correlation heatmap of numeric features
+* The dataset is loaded using `pandas.read_csv`.
+* Initial data exploration is done using `.head()`, `.info()`, and `.describe()`.
 
-✅ Sample Visuals
-📌 Survival by Gender
-(Replace with your local image or generated output)
+###  **Data Cleaning:**
 
-🔧 Tools & Libraries
-Python 3.x
+* Missing values in `Age` and `Embarked` are filled using **median** and **mode** respectively.
+* The `Cabin` column is dropped due to a high percentage of missing values.
+* Unnecessary columns like `Name`, `Ticket`, and `PassengerId` are removed for clarity.
 
-Pandas
+###  **Exploratory Data Analysis (EDA):**
 
-NumPy
+#### **Univariate Analysis:**
 
-Matplotlib
+* Count plots for `Survived`, `Pclass`, and `Sex`
+* Histogram of `Age` with KDE (Kernel Density Estimate)
 
-Seaborn
+#### **Bivariate Analysis:**
 
-Jupyter Notebook (Anaconda)
+* Survival rate by Gender (`Sex`)
+* Survival rate by Passenger Class (`Pclass`)
+* Heatmap showing correlation between numerical features
 
-🧠 Insights Gained
-Women and children had higher survival rates.
+---
 
-1st Class passengers were more likely to survive.
+##  **Visualizations:**
 
-Gender and class were strong predictors of survival.
+### 🧍‍♂ Survival by Gender:
 
-🙋‍♂️ Author
-YuvaSri
-📧 [Your Email or LinkedIn]
-🌐 [Your Portfolio or GitHub Profile]
+* Bar chart comparing male vs female survival rates
+* X-axis: Gender | Y-axis: Count of passengers
+
+###  Survival by Class:
+
+* Stacked bar chart of survival across Pclass (1, 2, 3)
+* Annotations added for clarity
+
+###  Age Distribution:
+
+* Histogram showing distribution of passenger ages
+* KDE overlay highlights density
+* Uses `seaborn.histplot` with 30 bins
+
+###  Correlation Heatmap:
+
+* Heatmap of correlation matrix between numerical columns
+* Shows strongest survival indicators like `Sex` and `Pclass`
+
+---
+
+##  **Learning Outcomes:**
+
+* Learned how to clean and preprocess a real-world dataset
+* Identified missing data and used appropriate imputation strategies
+* Gained hands-on experience with exploratory data analysis
+* Visualized patterns in survival based on multiple factors
+* Practiced creating professional-level plots and annotated visuals
+* Understood how class, gender, and age affected survival on the Titanic
+
+---
+
+## 👨‍💻 **Author:**
+
+**Yuva Sri**
+*Data Science Student, VIT Vellore*
+**Year:** 2025
+
+---
+
+
+
 
